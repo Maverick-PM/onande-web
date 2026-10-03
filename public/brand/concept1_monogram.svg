@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#0C1017"/>
+  <defs>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0944F"/>
+      <stop offset="100%" stop-color="#C27835"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D470"/>
+      <stop offset="100%" stop-color="#008746"/>
+    </linearGradient>
+  </defs>
+  <!-- O ring -->
+  <circle cx="230" cy="230" r="95" fill="none" stroke="url(#greenGrad)" stroke-width="20" stroke-linecap="round"/>
+  <circle cx="230" cy="230" r="70" fill="none" stroke="url(#copperGrad)" stroke-width="10" opacity="0.95"/>
+  <!-- N & E path -->
+  <path d="M230 135 L230 325 M230 135 L340 325 M340 135 L340 325" fill="none" stroke="url(#greenGrad)" stroke-width="20" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M340 135 L425 135 M340 230 L405 230 M340 325 L425 325" fill="none" stroke="url(#greenGrad)" stroke-width="20" stroke-linecap="round"/>
+  <!-- Inner Copper Accents -->
+  <path d="M242 158 L242 302 M242 158 L328 302 M328 158 L328 302" fill="none" stroke="url(#copperGrad)" stroke-width="8" opacity="0.9" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Typography -->
+  <text x="300" y="460" fill="#F8FAFC" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="52" font-weight="800" text-anchor="middle" letter-spacing="6">ON<tspan fill="#00A859" font-style="italic">&amp;</tspan>E</text>
+  <text x="300" y="505" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="6">ORIGIN • NATURE • EVOLUTION</text>
+</svg>

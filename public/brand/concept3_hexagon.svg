@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#0C1017"/>
+  <defs>
+    <linearGradient id="copperGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0944F"/>
+      <stop offset="100%" stop-color="#C27835"/>
+    </linearGradient>
+    <linearGradient id="greenGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E57A"/>
+      <stop offset="100%" stop-color="#008746"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(300, 220)">
+    <!-- Base Copper Foundation -->
+    <polygon points="0,110 95,55 95,-10 0,45" fill="url(#copperGrad3)" opacity="0.85"/>
+    <polygon points="0,110 -95,55 -95,-10 0,45" fill="url(#copperGrad3)"/>
+    <!-- Middle Dark Band -->
+    <polygon points="0,45 95,-10 95,-45 0,10" fill="#1C2433"/>
+    <polygon points="0,45 -95,-10 -95,-45 0,10" fill="#273142"/>
+    <!-- Crown Emerald Circuit Frame -->
+    <polygon points="0,10 95,-45 0,-100 -95,-45" fill="none" stroke="url(#greenGrad3)" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M-45,-45 L-45,-25 M0,-70 L0,-40 M45,-45 L45,-25" stroke="url(#greenGrad3)" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="0" cy="-55" r="10" fill="#00E57A"/>
+  </g>
+  <text x="300" y="460" fill="#F8FAFC" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="52" font-weight="800" text-anchor="middle" letter-spacing="6">ON<tspan fill="#00A859" font-style="italic">&amp;</tspan>E</text>
+  <text x="300" y="505" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="6">ORIGIN • NATURE • EVOLUTION</text>
+</svg>

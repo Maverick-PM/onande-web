@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 180" width="100%" height="100%">
+  <defs>
+    <!-- Deep Green Gradient -->
+    <linearGradient id="logoGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#144C40"/>
+      <stop offset="60%" stop-color="#0F3D33"/>
+      <stop offset="100%" stop-color="#092721"/>
+    </linearGradient>
+
+    <!-- Metallic Bronze Gradient -->
+    <linearGradient id="logoBronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEC092"/>
+      <stop offset="45%" stop-color="#C9A978"/>
+      <stop offset="100%" stop-color="#9E7E4F"/>
+    </linearGradient>
+
+    <!-- Bronze Pillar Gradient -->
+    <linearGradient id="logoPillarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5CCA7"/>
+      <stop offset="30%" stop-color="#C9A978"/>
+      <stop offset="70%" stop-color="#B8945E"/>
+      <stop offset="100%" stop-color="#8C6E40"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Group: Emblem Symbol (Diameter 130px, Center: 85, 90) -->
+  <g id="symbol">
+    <!-- Left Green Hemisphere (Radius 62) -->
+    <path d="M 82 28 A 62 62 0 0 0 82 152 Z" fill="url(#logoGreenGrad)"/>
+
+    <!-- Right Bronze Hemisphere (Radius 62) -->
+    <path d="M 88 28 A 62 62 0 0 1 88 152 Z" fill="url(#logoBronzeGrad)"/>
+
+    <!-- Central Bronze Divider Pillar -->
+    <rect x="83" y="20" width="4" height="140" rx="2" fill="url(#logoPillarGrad)"/>
+    
+    <!-- Left Inner Rim Highlight -->
+    <path d="M 82 32 A 58 58 0 0 0 82 148" fill="none" stroke="#256B5D" stroke-width="1.5" opacity="0.45"/>
+
+    <!-- Right Inner Rim Highlight -->
+    <path d="M 88 32 A 58 58 0 0 1 88 148" fill="none" stroke="#F4EFEA" stroke-width="1.2" opacity="0.35"/>
+  </g>
+
+  <!-- Typography: Wordmark ON & E -->
+  <g id="wordmark" transform="translate(180, 0)">
+    <text x="0" y="98" fill="#FFFFFF" font-family="'Montserrat', sans-serif" font-size="64" font-weight="700" letter-spacing="3">
+      ON <tspan fill="#C9A978">&amp;</tspan> E
+    </text>
+
+    <!-- Subtitle: IDEAS | SYSTEMS | PROGRESS -->
+    <text x="4" y="132" fill="#C9A978" font-family="'Montserrat', sans-serif" font-size="13" font-weight="600" letter-spacing="4.5">
+      IDEAS <tspan fill="#A7A7A7" font-weight="400">|</tspan> SYSTEMS <tspan fill="#A7A7A7" font-weight="400">|</tspan> PROGRESS
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="100%" height="100%">
+  <rect width="600" height="600" fill="#0C1017"/>
+  <defs>
+    <linearGradient id="copper" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3A660"/>
+      <stop offset="100%" stop-color="#B56525"/>
+    </linearGradient>
+    <linearGradient id="emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10E57A"/>
+      <stop offset="100%" stop-color="#008746"/>
+    </linearGradient>
+    <linearGradient id="titanium" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#8FA0B8"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(300, 220)">
+    <!-- Facet 1: Origin (Copper) -->
+    <path d="M-15 -115 C40 -125 115 -65 115 10 L80 15 C80 -45 25 -90 -15 -80 Z" fill="url(#copper)"/>
+    <!-- Facet 2: Nature (Emerald) -->
+    <path d="M115 10 C125 75 65 135 -10 135 L-15 98 C45 98 90 50 80 10 Z" fill="url(#emerald)"/>
+    <!-- Facet 3: Evolution (Titanium) -->
+    <path d="M-10 135 C-75 135 -125 65 -115 -10 L-80 -15 C-90 45 -45 90 0 98 Z" fill="url(#titanium)"/>
+    <!-- Central Node -->
+    <circle cx="0" cy="0" r="32" fill="#141A24" stroke="#273142" stroke-width="4"/>
+    <circle cx="0" cy="0" r="14" fill="#00A859"/>
+  </g>
+  <text x="300" y="460" fill="#F8FAFC" font-family="'Space Grotesk', 'Inter', sans-serif" font-size="52" font-weight="800" text-anchor="middle" letter-spacing="6">ON<tspan fill="#C27835" font-style="italic">&amp;</tspan>E</text>
+  <text x="300" y="505" fill="#94A3B8" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="600" text-anchor="middle" letter-spacing="6">ORIGIN • NATURE • EVOLUTION</text>
+</svg>

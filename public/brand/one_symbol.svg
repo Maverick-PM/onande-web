@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="100%" height="100%">
+  <defs>
+    <!-- Deep Green Gradient -->
+    <linearGradient id="oneGreenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#144C40"/>
+      <stop offset="60%" stop-color="#0F3D33"/>
+      <stop offset="100%" stop-color="#092721"/>
+    </linearGradient>
+
+    <!-- Metallic Bronze Gradient -->
+    <linearGradient id="oneBronzeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DEC092"/>
+      <stop offset="45%" stop-color="#C9A978"/>
+      <stop offset="100%" stop-color="#9E7E4F"/>
+    </linearGradient>
+
+    <!-- Bronze Pillar Gradient -->
+    <linearGradient id="onePillarGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E5CCA7"/>
+      <stop offset="25%" stop-color="#C9A978"/>
+      <stop offset="75%" stop-color="#B8945E"/>
+      <stop offset="100%" stop-color="#8C6E40"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#softGlow)">
+    <!-- Left Hemisphere (Deep Green) -->
+    <!-- Arc from top (145, 50) to bottom (145, 250), radius 100 -->
+    <path d="M 145 50 A 100 100 0 0 0 145 250 Z" fill="url(#oneGreenGrad)"/>
+
+    <!-- Right Hemisphere (Bronze) -->
+    <!-- Arc from top (155, 50) to bottom (155, 250), radius 100 -->
+    <path d="M 155 50 A 100 100 0 0 1 155 250 Z" fill="url(#oneBronzeGrad)"/>
+
+    <!-- Central Bronze Pillar (Extends slightly past perimeter) -->
+    <rect x="146.5" y="38" width="7" height="224" rx="3.5" fill="url(#onePillarGrad)"/>
+    
+    <!-- Subtle Inner Highlight on Left Green Arc -->
+    <path d="M 145 56 A 94 94 0 0 0 145 244" fill="none" stroke="#256B5D" stroke-width="2.5" opacity="0.4"/>
+
+    <!-- Subtle Inner Highlight on Right Bronze Arc -->
+    <path d="M 155 56 A 94 94 0 0 1 155 244" fill="none" stroke="#F4EFEA" stroke-width="2" opacity="0.35"/>
+  </g>
+</svg>
